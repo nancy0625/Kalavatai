@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="pink">#ef5b9c</color>
+    <color name="dark_pink">#f7acbc</color>
+    <color name="gray">#607d8b</color>
+    <color name="soothing_blue">#4e72b8</color>
+    <color name="dark_blue">#6a6da9</color>
+    <color name="soothing_pink">#fedcbd</color>
+    <color name="soothing_green">#abc88b</color>
+    <color name="soothing_white">#cde6c7</color>
+    <color name="green">#78a355</color>
+    <color name="grown">#f6f5ec</color>
+
+</resources>

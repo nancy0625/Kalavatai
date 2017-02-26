@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/grown"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dip"
+        android:gravity="center"
+        android:text="@string/hint_Title"
+        android:minLines="3"
+        android:id="@+id/autoCompleteTextView"
+       />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#1a2933"/>
+
+
+    <EditText
+        android:inputType="textPhonetic"
+        android:maxLength="2500"
+        android:freezesText="true"
+        android:textAlignment="center"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_date"
+        android:id="@+id/textView4"
+        android:layout_weight="1.11" />
+
+</LinearLayout>

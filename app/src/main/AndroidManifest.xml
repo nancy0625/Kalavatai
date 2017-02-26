@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.Mentality">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+            <activity android:name="com.example.asus.Mentality.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ReadAssetFragment"
+            android:label="@string/app_name"
+            android:parentActivityName=".BookActivity">
+
+        </activity>
+        <activity android:name=".BookActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+        <activity android:name=".MentalityActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+
+
+        <activity android:name=".PersonalActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+        <activity android:name=".DateActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".PersonalActivity">
+
+        </activity>
+    </application>
+
+</manifest>

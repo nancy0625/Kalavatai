@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageButton
+        android:background="@mipmap/ic_photo"
+        android:layout_width="273dp"
+        android:layout_height="113dp"
+        android:id="@+id/imageButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.19" />
+
+    <EditText
+        android:inputType="number"
+        android:maxLength="10"
+        android:freezesText="true"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="学号:"
+        android:id="@+id/textView"
+        android:layout_weight="0.10" />
+
+    <EditText
+        android:inputType="textPersonName"
+        android:freezesText="true"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="姓名:"
+        android:id="@+id/textView2"
+        android:layout_weight="0.08" />
+
+    <EditText
+        android:inputType="text"
+        android:freezesText="true"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="昵称:"
+        android:id="@+id/textView3"
+        android:layout_weight="0.08" />
+
+    <EditText
+        android:inputType="number"
+        android:freezesText="true"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="QQ号:"
+        android:id="@+id/textView4"
+        android:layout_weight="0.08" />
+
+    <EditText
+        android:inputType="textPhonetic"
+        android:freezesText="true"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="内心独白:"
+       android:id="@+id/textView5"
+        android:layout_weight="0.40" />
+    <Button
+        style="@style/mentality_button"
+        android:id="@+id/date"
+        android:layout_gravity="center"
+        android:text="我的心情日记"
+        android:textSize="20dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

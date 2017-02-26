@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mentality</string>
+    <string name="title_activity_mentality">MentalityActivity</string>
+    <string name="mentality_title_hint">请输入您的学号</string>
+    <string name="mentality_content_hint">请输入您的留言</string>
+    <string name="mentality_button_text">预约</string>
+    <string name="hint_date">记录你的心情，完美你的人生</string>
+    <string name="hint_Title">日记</string>
+</resources>
